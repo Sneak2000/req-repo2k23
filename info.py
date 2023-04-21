@@ -51,8 +51,9 @@ BOT_TOKEN = "6281001850:AAHT-umSZYt6_AZDiag0rhURRhsxV8P_blA"
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/d1dd25b4f829f530f7b05.jpg https://telegra.ph/file/6963f4bafca09343a3655.jpg')).split()         
-NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/732a9f89be5a9cd63289b.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/314928baed9a9c277072f.jpg")
 MELCOW_IMG = environ.get("MELCOW_IMG", "https://telegra.ph/file/732a9f89be5a9cd63289b.jpg")
+NOR_IMG = eniviron.get("NOR_IMG", "https://telegra.ph/file/6407b7628e94525656aef.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f7f2a532fe4b990044507.mp4")
 
 # Admins, Channels & Users
